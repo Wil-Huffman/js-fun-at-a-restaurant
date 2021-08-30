@@ -25,7 +25,6 @@ function listItems(orders) {
   return items
   };
 
-
   function searchOrder(orders, item) {
   var found = false
   for (var i = 0; i < orders.length; i++){

@@ -5,15 +5,12 @@
 
 //------------------------- Variables -------------------------//
 
-
 // Initialize three new variables, "food", "type" and "inStock", and assign values to them with
 // a food's name, type and number of items in stock.
 
 var food = "Ice Cream";
 var type = "Dessert";
 var inStock = 10
-
-
 
 // Reassign (not initialize) your "inStock" variable from above. We got a new shipment! Use a built in math operator to make 
 // the inStock count double what it currently is.
@@ -38,19 +35,17 @@ var isFavorite = true;
 // variable should be true, otherwise it should be false. You MUST use a
 // comparison operator.
 
-
 var shouldOrderMore = (inStock < 20) ? true:false;
 //Ternary operator! Yay!
 console.log(inStock);
 
-
 //------------------------- Conditionals -------------------------//
-
-
 
 // Express the following in code: If the variable 
 
+
 // (***"stockCount"*** TYPO for inStock???) is greater or equal to 1, log
+
 
 // the statement 'I'm going to eat some [food]!', otherwise, log the statement 
 // 'We need to get some more [food].'
@@ -73,10 +68,7 @@ if (isFavorite === true) {
     console.log(`I recently ate ${food}.`)
     }
 
-
-
 // //------------------------- Arrays -------------------------//
-
 
 // // Create a new variable "vegetables" and assign it to an Array of 5 different
 // // vegetables, represented by their names as Strings.
